@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/cyryl/dev/hvpsu/hvpsu.sch</source>
+    <date>nie, 7 cze 2015, 15:27:22</date>
+    <tool>Eeschema 0.201506052246+5717~23~ubuntu15.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>hvpsu.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>Diode_Bridge</value>
+      <libsource lib="device" part="Diode_Bridge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55742B0F</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FUSE</value>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55742BA1</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Switch_DPST</value>
+      <libsource lib="device" part="Switch_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55742C84</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55743204</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557432A3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557432F6</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55743365</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557433C3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574341B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55743445</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574346D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574356C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574359E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557439D2</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55743AAC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CP</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574485B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574353C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574350A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557434CE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Diode_Bridge">
+      <description>Diode bridge</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Diode_Bridge</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Switch_DPST">
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch_DPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R12-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad4)">
+      <node ref="F1" pin="2"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(P1-Pad2)">
+      <node ref="SW1" pin="3"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R8-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R7-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R10-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R10-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R4-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="18" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R2-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>

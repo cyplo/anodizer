@@ -1,0 +1,47 @@
+;
+SIGNAL '(comp' 
+ (ref D1);
+SIGNAL '(comp' 
+ (ref F1);
+SIGNAL '(comp' 
+ (ref SW1);
+SIGNAL '(comp' 
+ (ref R11);
+SIGNAL '(comp' 
+ (ref R12);
+SIGNAL '(comp' 
+ (ref R13);
+SIGNAL '(comp' 
+ (ref R5);
+SIGNAL '(comp' 
+ (ref R4);
+SIGNAL '(comp' 
+ (ref R3);
+SIGNAL '(comp' 
+ (ref R2);
+SIGNAL '(comp' 
+ (ref R1);
+SIGNAL '(comp' 
+ (ref R9);
+SIGNAL '(comp' 
+ (ref R10);
+SIGNAL '(comp' 
+ (ref P1);
+SIGNAL '(comp' 
+ (ref P2);
+SIGNAL '(comp' 
+ (ref C1);
+SIGNAL '(comp' 
+ (ref R8);
+SIGNAL '(comp' 
+ (ref R7);
+SIGNAL '(comp' 
+ (ref R6);
+SIGNAL '(description' 
+ "Polarised capacitor");
+SIGNAL '(description' 
+ "Diode bridge");
+SIGNAL '(library' 
+ (logical device);
+SIGNAL '(library' 
+ (logical conn);

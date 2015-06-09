@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hvpsu-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -47,7 +48,7 @@ L Diode_Bridge D1
 U 1 1 55742B0F
 P 4100 2000
 F 0 "D1" H 4100 2050 50  0000 C CNN
-F 1 "Diode_Bridge" H 4100 1950 50  0000 C CNN
+F 1 "KBU10M" H 4100 1950 50  0000 C CNN
 F 2 "" H 4100 2000 60  0000 C CNN
 F 3 "" H 4100 2000 60  0000 C CNN
 	1    4100 2000
@@ -59,7 +60,7 @@ U 1 1 55742BA1
 P 3200 1300
 F 0 "F1" H 3300 1350 50  0000 C CNN
 F 1 "FUSE" H 3100 1250 50  0000 C CNN
-F 2 "" H 3200 1300 60  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" H 3200 1300 60  0001 C CNN
 F 3 "" H 3200 1300 60  0000 C CNN
 	1    3200 1300
 	1    0    0    -1  
@@ -70,7 +71,7 @@ U 1 1 55742C84
 P 2100 1500
 F 0 "SW1" H 2400 1550 50  0000 C CNN
 F 1 "Switch_DPST" H 2400 1450 50  0000 C CNN
-F 2 "" H 2100 1500 60  0000 C CNN
+F 2 "switches:DPST_Rocker_Switch_Chily_3024_Angled" H 2100 1500 60  0001 C CNN
 F 3 "" H 2100 1500 60  0000 C CNN
 	1    2100 1500
 	1    0    0    -1  
@@ -81,8 +82,8 @@ U 1 1 55743204
 P 5650 1300
 F 0 "R11" V 5730 1300 50  0000 C CNN
 F 1 "1k" V 5650 1300 50  0000 C CNN
-F 2 "" V 5580 1300 30  0000 C CNN
-F 3 "" H 5650 1300 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5580 1300 30  0001 C CNN
+F 3 "" H 5650 1300 30  0001 C CNN
 	1    5650 1300
 	0    1    1    0   
 $EndComp
@@ -92,7 +93,7 @@ U 1 1 557432A3
 P 5650 1500
 F 0 "R12" V 5730 1500 50  0000 C CNN
 F 1 "1k" V 5650 1500 50  0000 C CNN
-F 2 "" V 5580 1500 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5580 1500 30  0001 C CNN
 F 3 "" H 5650 1500 30  0000 C CNN
 	1    5650 1500
 	0    1    1    0   
@@ -103,7 +104,7 @@ U 1 1 557432F6
 P 5650 1700
 F 0 "R13" V 5730 1700 50  0000 C CNN
 F 1 "1k" V 5650 1700 50  0000 C CNN
-F 2 "" V 5580 1700 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5580 1700 30  0001 C CNN
 F 3 "" H 5650 1700 30  0000 C CNN
 	1    5650 1700
 	0    1    1    0   
@@ -114,7 +115,7 @@ U 1 1 55743365
 P 5250 3150
 F 0 "R5" V 5330 3150 50  0000 C CNN
 F 1 "1k" V 5250 3150 50  0000 C CNN
-F 2 "" V 5180 3150 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5180 3150 30  0001 C CNN
 F 3 "" H 5250 3150 30  0000 C CNN
 	1    5250 3150
 	0    1    1    0   
@@ -125,7 +126,7 @@ U 1 1 557433C3
 P 5250 3000
 F 0 "R4" V 5330 3000 50  0000 C CNN
 F 1 "1k" V 5250 3000 50  0000 C CNN
-F 2 "" V 5180 3000 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5180 3000 30  0001 C CNN
 F 3 "" H 5250 3000 30  0000 C CNN
 	1    5250 3000
 	0    1    1    0   
@@ -136,7 +137,7 @@ U 1 1 5574341B
 P 5250 2850
 F 0 "R3" V 5330 2850 50  0000 C CNN
 F 1 "1k" V 5250 2850 50  0000 C CNN
-F 2 "" V 5180 2850 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5180 2850 30  0001 C CNN
 F 3 "" H 5250 2850 30  0000 C CNN
 	1    5250 2850
 	0    1    1    0   
@@ -147,7 +148,7 @@ U 1 1 55743445
 P 5250 2700
 F 0 "R2" V 5330 2700 50  0000 C CNN
 F 1 "1k" V 5250 2700 50  0000 C CNN
-F 2 "" V 5180 2700 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5180 2700 30  0001 C CNN
 F 3 "" H 5250 2700 30  0000 C CNN
 	1    5250 2700
 	0    1    1    0   
@@ -158,7 +159,7 @@ U 1 1 5574346D
 P 5250 2550
 F 0 "R1" V 5330 2550 50  0000 C CNN
 F 1 "1k" V 5250 2550 50  0000 C CNN
-F 2 "" V 5180 2550 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5180 2550 30  0001 C CNN
 F 3 "" H 5250 2550 30  0000 C CNN
 	1    5250 2550
 	0    1    1    0   
@@ -169,7 +170,7 @@ U 1 1 5574356C
 P 5650 3000
 F 0 "R9" V 5730 3000 50  0000 C CNN
 F 1 "1k" V 5650 3000 50  0000 C CNN
-F 2 "" V 5580 3000 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5580 3000 30  0001 C CNN
 F 3 "" H 5650 3000 30  0000 C CNN
 	1    5650 3000
 	0    1    1    0   
@@ -180,7 +181,7 @@ U 1 1 5574359E
 P 5650 3150
 F 0 "R10" V 5730 3150 50  0000 C CNN
 F 1 "1k" V 5650 3150 50  0000 C CNN
-F 2 "" V 5580 3150 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5580 3150 30  0001 C CNN
 F 3 "" H 5650 3150 30  0000 C CNN
 	1    5650 3150
 	0    1    1    0   
@@ -224,7 +225,7 @@ U 1 1 557439D2
 P 700 1500
 F 0 "P1" H 700 1650 50  0000 C CNN
 F 1 "CONN_01X02" V 800 1500 50  0000 C CNN
-F 2 "" H 700 1500 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_2pol" H 700 1500 60  0001 C CNN
 F 3 "" H 700 1500 60  0000 C CNN
 	1    700  1500
 	-1   0    0    1   
@@ -235,7 +236,7 @@ U 1 1 55743AAC
 P 6650 2200
 F 0 "P2" H 6650 2350 50  0000 C CNN
 F 1 "CONN_01X02" V 6750 2200 50  0000 C CNN
-F 2 "" H 6650 2200 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_2pol" H 6650 2200 60  0001 C CNN
 F 3 "" H 6650 2200 60  0000 C CNN
 	1    6650 2200
 	1    0    0    -1  
@@ -392,7 +393,7 @@ U 1 1 5574350A
 P 5650 2700
 F 0 "R7" V 5730 2700 50  0000 C CNN
 F 1 "0R" V 5650 2700 50  0000 C CNN
-F 2 "" V 5580 2700 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5580 2700 30  0001 C CNN
 F 3 "" H 5650 2700 30  0000 C CNN
 	1    5650 2700
 	0    1    1    0   
@@ -403,7 +404,7 @@ U 1 1 557434CE
 P 5650 2550
 F 0 "R6" V 5730 2550 50  0000 C CNN
 F 1 "0R" V 5650 2550 50  0000 C CNN
-F 2 "" V 5580 2550 30  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm" V 5580 2550 30  0001 C CNN
 F 3 "" H 5650 2550 30  0000 C CNN
 	1    5650 2550
 	0    1    1    0   
