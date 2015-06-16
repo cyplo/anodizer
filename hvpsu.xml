@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/cyryl/dev/hvpsu/hvpsu.sch</source>
-    <date>nie, 7 cze 2015, 15:27:22</date>
-    <tool>Eeschema 0.201506052246+5717~23~ubuntu15.04.1-product</tool>
+    <date>wto, 16 cze 2015, 20:49:53</date>
+    <tool>Eeschema 0.201506132246+5746~23~ubuntu15.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -20,97 +20,113 @@
   </design>
   <components>
     <comp ref="D1">
-      <value>Diode_Bridge</value>
+      <value>KBU10M</value>
+      <footprint>bridges:KBU10M_Bridge_Rectifier_1000V</footprint>
       <libsource lib="device" part="Diode_Bridge"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55742B0F</tstamp>
     </comp>
     <comp ref="F1">
       <value>FUSE</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III</footprint>
       <libsource lib="device" part="FUSE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55742BA1</tstamp>
     </comp>
     <comp ref="SW1">
       <value>Switch_DPST</value>
+      <footprint>switches:DPST_Rocker_Switch_Chily_3024_Angled</footprint>
       <libsource lib="device" part="Switch_DPST"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55742C84</tstamp>
     </comp>
     <comp ref="R11">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55743204</tstamp>
     </comp>
     <comp ref="R12">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557432A3</tstamp>
     </comp>
     <comp ref="R13">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557432F6</tstamp>
     </comp>
     <comp ref="R5">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55743365</tstamp>
     </comp>
     <comp ref="R4">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557433C3</tstamp>
     </comp>
     <comp ref="R3">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574341B</tstamp>
     </comp>
     <comp ref="R2">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55743445</tstamp>
     </comp>
     <comp ref="R1">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574346D</tstamp>
     </comp>
     <comp ref="R9">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574356C</tstamp>
     </comp>
     <comp ref="R10">
       <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574359E</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_01X02</value>
+      <footprint>Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_2pol</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557439D2</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X02</value>
+      <footprint>Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_2pol</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55743AAC</tstamp>
     </comp>
     <comp ref="C1">
-      <value>CP</value>
+      <value>680uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D35_L51_P10</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574485B</tstamp>
@@ -123,15 +139,24 @@
     </comp>
     <comp ref="R7">
       <value>0R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574350A</tstamp>
     </comp>
     <comp ref="R6">
       <value>0R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L65mm-W16mm-H15mm-p80mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557434CE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>680uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D35_L51_P10</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55806817</tstamp>
     </comp>
   </components>
   <libparts>
@@ -224,92 +249,94 @@
   </libparts>
   <libraries>
     <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+      <uri>/home/cyryl/dev/hvpsu/kicad-library/library/device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+      <uri>/home/cyryl/dev/hvpsu/kicad-library/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(R12-Pad2)">
-      <node ref="R13" pin="2"/>
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="2" name="Net-(R11-Pad1)">
-      <node ref="R11" pin="1"/>
-      <node ref="R12" pin="1"/>
-    </net>
-    <net code="3" name="Net-(D1-Pad3)">
-      <node ref="D1" pin="3"/>
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="4" name="Net-(D1-Pad2)">
+    <net code="1" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
       <node ref="SW1" pin="2"/>
     </net>
-    <net code="5" name="Net-(R1-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="6" name="Net-(D1-Pad4)">
-      <node ref="F1" pin="2"/>
-      <node ref="D1" pin="4"/>
-    </net>
-    <net code="7" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1"/>
-      <node ref="SW1" pin="4"/>
-    </net>
-    <net code="8" name="Net-(P1-Pad1)">
-      <node ref="P1" pin="1"/>
-      <node ref="SW1" pin="1"/>
-    </net>
-    <net code="9" name="Net-(P1-Pad2)">
-      <node ref="SW1" pin="3"/>
-      <node ref="P1" pin="2"/>
-    </net>
-    <net code="10" name="GND">
-      <node ref="R1" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="P2" pin="2"/>
-      <node ref="C1" pin="2"/>
-    </net>
-    <net code="11" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2"/>
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="12" name="Net-(R8-Pad2)">
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="13" name="Net-(R7-Pad1)">
-      <node ref="R8" pin="1"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="14" name="Net-(C1-Pad1)">
-      <node ref="R13" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="P2" pin="1"/>
-    </net>
-    <net code="15" name="Net-(R10-Pad1)">
-      <node ref="R9" pin="1"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="16" name="Net-(R10-Pad2)">
-      <node ref="R5" pin="1"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="17" name="Net-(R4-Pad2)">
+    <net code="2" name="Net-(R4-Pad2)">
       <node ref="R5" pin="2"/>
       <node ref="R4" pin="2"/>
     </net>
-    <net code="18" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
+    <net code="3" name="Net-(R3-Pad1)">
       <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
     </net>
-    <net code="19" name="Net-(R2-Pad2)">
-      <node ref="R3" pin="2"/>
+    <net code="4" name="Net-(R2-Pad2)">
       <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R12-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="12" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(P1-Pad2)">
+      <node ref="SW1" pin="3"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="P2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R6-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R7-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R8-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
     </net>
   </nets>
 </export>

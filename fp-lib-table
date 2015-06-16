@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name switches)(type KiCad)(uri "$(KIPRJMOD)/library/switches.pretty")(options "")(descr ""))
+  (lib (name bridges)(type KiCad)(uri "$(KIPRJMOD)/library/bridges.pretty")(options "")(descr ""))
 )
